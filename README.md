@@ -1,5 +1,5 @@
 # chaff
-Location based chat that uses bigtree for server persistence and messaging.
+Location based, mobile web chat that uses bigtree for server persistence and messaging.
 
 Bigtree, Angular 4, Full PWA spec implementation.
 
