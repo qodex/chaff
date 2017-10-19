@@ -1,0 +1,16 @@
+{
+  "name": "Chaff",
+  "short_name": "Chaff",
+  "icons": [
+    {
+      "src": "assets/chaff.png",
+      "sizes": "512x512",
+      "type": "image\/png"
+    }
+  ],
+  "display": "standalone",
+  "background_color": "#51611E",
+  "theme_color": "#EE6630",
+  "start_url": "/?utm_source=launcher"
+}
+  

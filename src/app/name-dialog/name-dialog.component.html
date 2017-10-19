@@ -1,0 +1,10 @@
+<div class="chaff-dialog">
+  <div>
+    {{dialogText}}
+    <br/>
+    <br/>
+    <input id="userName" type="text" [(ngModel)]="userName" class="chaff-input" (keyup)="keyup($event)"/>
+    <br/>
+    <button (click)="setName()">OK</button>
+  </div>
+</div>

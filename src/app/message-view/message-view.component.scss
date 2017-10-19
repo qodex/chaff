@@ -1,0 +1,17 @@
+img {
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (orientation: portrait) {
+    img {
+        width: 100%;
+    }
+}
+@media screen and (orientation: landscape) {
+    img {
+        height: 100%;
+    }
+}

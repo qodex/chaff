@@ -1,0 +1,6 @@
+<div class="input-group">
+  <input id="inputFile" type="file" class="inputFile" capture="user" accept="image/*" (change)="fileSelected($event)"/>
+  <label for="inputFile">📸</label>
+  <input id="inputField" type="text" class="chaff-input" [(ngModel)]="inputValue" (keyup)="keyup($event)">
+  <button class="chaff-button" (click)="send()">&#x27A4;</button>
+</div>

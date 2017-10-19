@@ -1,0 +1,38 @@
+<div class="message-view">
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <div *ngFor="let message of messages" class="bubble {{message.source}}">
+    <div class="message">{{message.text}}</div>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <div class="buffer"></div>
+  <img *ngIf="flashPic" [ngClass]="'imgRotate'+flashPicOrientation" [src]="flashPic"/>
+</div>
+
